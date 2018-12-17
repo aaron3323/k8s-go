@@ -52,7 +52,7 @@ items:
           name: es
           env:
           - name: network.host
-            value: "_site_"
+            value: "0.0.0.0"
           - name: node.name
             value: "${HOSTNAME}"
           - name: discovery.zen.ping.unicast.hosts
